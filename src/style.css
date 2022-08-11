@@ -1,0 +1,31 @@
+li {
+    list-style: none;
+}
+
+#weatherform {
+
+}
+
+.requestdiv {
+
+}
+
+
+
+.weatherdisplay{
+
+}
+
+.locationsubmitbtn {
+    border-radius: 15px;
+    background-color: blue;
+}
+
+#weatherlist {
+    background-color: grey;
+}
+
+.currenttemp {
+    font-size: 2rem;
+    font-weight: bold;
+}
