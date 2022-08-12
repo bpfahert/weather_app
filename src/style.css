@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 li {
     list-style: none;
 }
@@ -7,25 +14,38 @@ li {
 }
 
 .requestdiv {
-
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 
-
 .weatherdisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    width: 1000px;
 
 }
 
 .locationsubmitbtn {
     border-radius: 15px;
-    background-color: blue;
+    color: blue;
 }
 
 #weatherlist {
-    background-color: grey;
+    text-align: center;
+    gap: 20px;
 }
 
 .currenttemp {
     font-size: 2rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 3rem;
     font-weight: bold;
 }
